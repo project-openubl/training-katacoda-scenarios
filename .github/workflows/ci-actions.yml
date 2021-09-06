@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Katacoda CLI
+        run: sudo npm i katacoda-cli --global
+      - name: Validate Katacoda scenarios
+        run: katacoda validate:all --repo ${{ github.workspace }}
+      - name: Validate Katacoda Markdown
+        run: |
+          sudo gem install mdl
+          mdl ${{ github.workspace }}
