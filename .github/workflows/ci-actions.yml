@@ -19,7 +19,3 @@ jobs:
         run: sudo npm i katacoda-cli --global
       - name: Validate Katacoda scenarios
         run: katacoda validate:all --repo ${{ github.workspace }}
-      - name: Validate Katacoda Markdown
-        run: |
-          sudo gem install mdl
-          mdl ${{ github.workspace }}
