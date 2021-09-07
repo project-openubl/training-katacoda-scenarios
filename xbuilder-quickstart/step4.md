@@ -1,6 +1,11 @@
-Crea `DefaultSystemClock.java` para configurar el reloj de XBuilder. Puedes leer la documentación https://project-openubl.github.io/docs/xbuilder/create-xml#crea-un-systemclock
+XBuilder requiere que configures una forma de determinar la hora del sistema. Para mayor información lee la documentación oficial [crea-un-systemclock](https://project-openubl.github.io/docs/xbuilder/create-xml#crea-un-systemclock)
 
-Ejecuta el comando:
+
+## Crea `DefaultSystemClock.java`
+
+Aquí tienes una clase Java llamada `DefaultSystemClock.java` que contiene todo lo requerido por XBuilder.
+
+Has click en el siguiente comando para que pueda ser ejecutado:
 
 ```shell
 cat << EOF > xbuilder-quickstart/src/main/java/org/openubl/xbuilder/DefaultSystemClock.java
@@ -26,3 +31,7 @@ public class DefaultSystemClock implements SystemClock {
 }
 EOF
 ```{{execute}}
+
+## Observa el contenido de `DefaultSystemClock.java`
+
+Abre el archivo `xbuilder-quickstart/src/main/java/org/openubl/xbuilder/DefaultSystemClock.java`{{open}} y analiza el contenido.

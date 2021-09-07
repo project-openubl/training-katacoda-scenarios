@@ -1,8 +1,14 @@
-Crea `Main.java` para configurar el reloj de XBuilder. Puedes leer la documentación https://project-openubl.github.io/docs/xbuilder/create-xml#crea-el-xml
+Ya tenemos `ConfigDefaults.java` y `DefaultSystemClock.java` configurados correctamente. Ahora es momento de crear una factura electrónica.
 
-Ejecuta el comando:
+La creación de una factura es explicada en la documentación oficial [crea-el-xm](https://project-openubl.github.io/docs/xbuilder/create-xml#crea-el-xml).
 
-```shell
+## Crea `Main.java`
+
+Aquí tienes una clase llamada `Main.java` con en contenido requerido para crear una factura electrónica.
+
+Has click en el siguiente comando para que pueda ser ejecutado:
+
+````shell
 cat << EOF > xbuilder-quickstart/src/main/java/org/openubl/xbuilder/Main.java
 package org.openubl.xbuilder;
 
@@ -68,3 +74,7 @@ public class Main {
 }
 EOF
 ```{{execute}}
+
+## Observa el contenido de `Main.java`
+
+Abre el archivo `xbuilder-quickstart/src/main/java/org/openubl/xbuilder/Main.java`{{open}} y analiza el contenido.

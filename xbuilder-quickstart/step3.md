@@ -1,8 +1,14 @@
-Crea `ConfigDefaults.java` para configurar XBuilder. Puedes leer la documentación https://project-openubl.github.io/docs/xbuilder/create-xml#crear-un-config
+XBuilder requiere que tu configures algunos valores como la moneda de emisión, el valor del IGV, etc. Para mayor información lee la documentación oficial [crear-un-config](https://project-openubl.github.io/docs/xbuilder/create-xml#crear-un-config)
 
-Ejecuta el comando:
+El presente ejemplo tiene variables como el IGV escrito en el código; sin embargo, en tu software tu puedes decidir cargar esos valores desde tu base de datos, variables de entorno, archivos, etc.
 
-```shell
+## Crea `ConfigDefaults.java`
+
+Aquí tienes una clase Java llamada `ConfigDefaults.java` que contiene todo lo requerido por XBuilder.
+
+Has click en el siguiente comando para que pueda ser ejecutado:
+
+````shell
 cat << EOF > xbuilder-quickstart/src/main/java/org/openubl/xbuilder/ConfigDefaults.java
 package org.openubl.xbuilder;
 
@@ -65,3 +71,7 @@ public class ConfigDefaults implements Config {
 }
 EOF
 ```{{execute}}
+
+## Observa el contenido de `ConfigDefaults.java`
+
+Abre el archivo `xbuilder-quickstart/src/main/java/org/openubl/xbuilder/ConfigDefaults.java`{{open}} y analiza el contenido.
