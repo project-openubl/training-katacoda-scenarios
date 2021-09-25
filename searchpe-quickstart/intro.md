@@ -1,6 +1,6 @@
 # Searchpe quickstart
 
-Experimenta con Searchpe y empieza a consultar los datos de todas las personas jurídias registradas en la SUNAT.
+Experimenta con Searchpe y empieza a consultar los datos de todas las personas jurídicas registradas en la SUNAT.
 
 ## Objetivos:
 
