@@ -1,4 +1,6 @@
-La base de datos
+Searchpe utiliza Elasticsearch para realizar búsquedas avanzadas. Usaremos Docker para crear una instancia de Elasticsearch.
+
+Has click en el siguiente comando para que sea ejecutado en el terminal.
 
 ```
 docker run -d \
@@ -8,7 +10,20 @@ docker run -d \
 -p 9300:9300 \
 -e "discovery.type=single-node" \
 docker.elastic.co/elasticsearch/elasticsearch:7.10.2
-```{execute}
+```{{execute T1}}
 
-# Verifica
+> Elasticsearch es iniciado en el puerto 9200.
+
+## Verifica Elasticsearch (Opcional)
+
+Ejecuta el siguiente comando:
+
+```
 docker logs elasticsearch
+```{{execute T1}}
+
+## Limpia el terminal
+
+```
+clear
+```{{execute T1}}

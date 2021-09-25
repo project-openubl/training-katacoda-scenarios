@@ -15,10 +15,16 @@ postgres:13.1
 
 > PostgreSQL es iniciado en el puerto 5432.
 
-## Verifica PosgreSQL(Opcional)
+## Verifica PosgreSQL (Opcional)
 
 Ejecuta el siguiente comando:
 
 ```
 docker logs postgresql
+```{{execute T1}}
+
+## Limpia el terminal
+
+```
+clear
 ```{{execute T1}}
