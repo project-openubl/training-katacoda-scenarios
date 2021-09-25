@@ -1,28 +1,28 @@
 {
   "title": "Searchpe quickstart",
-  "description": "Experimenta Searchpe",
+  "description": "Aprende a arrancar Searchpe y empezar a consultar los datos de todas las personas jurídicas registradas en la SUNAT.",
   "difficulty": "Beginner",
   "time": "10",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Configura PostgreSQL",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Configura Elasticsearch",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Configura Searchpe",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Configura Searchpe UI",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Utiliza Searchpe",
         "text": "step5.md"
       }
     ],
