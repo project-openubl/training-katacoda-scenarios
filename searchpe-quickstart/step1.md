@@ -2,7 +2,7 @@ Searchpe utiliza PostgreSQL para almacenar sus datos. Usaremos Docker para crear
 
 Has click en el siguiente comando para que sea ejecutado en el terminal.
 
-````
+```
 docker run -d \
 --name postgresql \
 --network=host \
@@ -21,4 +21,4 @@ Ejecuta el siguiente comando:
 
 ```
 docker logs postgresql
-````{{execute T1}}
+```{{execute T1}}
