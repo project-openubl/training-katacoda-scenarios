@@ -1,4 +1,6 @@
-Searchpe
+Ahora, es el momento de instalar **Searchpe**. Usaremos Docker para crear una instancia de **Searchpe**.
+
+Has click en el siguiente comando para que sea ejecutado en el terminal.
 
 ```
 docker run -d \
@@ -15,7 +17,20 @@ docker run -d \
 -e QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PROTOCOL=HTTP \
 -e SEARCHPE_SUNAT_PADRONREDUCIDOURL=https://raw.githubusercontent.com/project-openubl/searchpe/master/padron_reducido_ruc.zip \
 quay.io/projectopenubl/searchpe
-```{execute}
+```{{execute T1}}
 
-# Verifica
+> Note que se está pasando una variable de entorno **SEARCHPE_SUNAT_PADRONREDUCIDOURL** con la URl de un padrón reducido de prueba. En escenarios reales no necesitas indicar el valor de **SEARCHPE_SUNAT_PADRONREDUCIDOURL** ya que este está ya configurado.
+
+# Verifica Searchpe
+
+Ejecuta el siguiente comando:
+
+```
 docker logs searchpe
+```{{execute T1}}
+
+## Limpia el terminal
+
+```
+clear
+```{{execute T1}}
