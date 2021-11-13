@@ -1,6 +1,6 @@
 {
     "title": "XBuilder",
-    "description": "XBuilder training",
+    "description": "Crea y firma electrónicamente archivos XMLs basados en UBL y los estándares de la SUNAT. Soporte para boletas, facturas, notas de crédito, notas de débito, etc.",
     "icon": "fa-katacoda",
     "courses": [
         {
