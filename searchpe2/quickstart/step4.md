@@ -8,7 +8,7 @@ docker run -d \
 --network=host \
 -p 8080:8080 \
 -e SEARCHPE_API_URL=http://localhost:8180 \
-quay.io/projectopenubl/searchpe-ui
+quay.io/projectopenubl/searchpe-ui:2.0.1
 ```{{execute T1}}
 
 > Searchpe UI es iniciado en el puerto 8080.

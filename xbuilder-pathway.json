@@ -1,0 +1,12 @@
+{
+    "title": "XBuilder",
+    "description": "XBuilder training",
+    "icon": "fa-katacoda",
+    "courses": [
+        {
+            "course_id": "quickstart",
+            "title": "XBuilder quickstart",
+            "description": "Aprende a instalar XBuilder y crear tu primer XML producto de una factura electrónica."
+        }
+    ]
+}
