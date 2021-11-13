@@ -1,0 +1,12 @@
+{
+    "title": "Searchpe 2",
+    "description": "Searchpe 2 training",
+    "icon": "fa-katacoda",
+    "courses": [
+        {
+            "course_id": "quickstart",
+            "title": "Searchpe quickstart",
+            "description": "Aprende a arrancar Searchpe y empezar a consultar los datos de todas las personas jurídicas registradas en la SUNAT."
+        }
+    ]
+}

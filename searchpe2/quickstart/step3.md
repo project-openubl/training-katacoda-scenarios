@@ -16,7 +16,7 @@ docker run -d \
 -e QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_HOSTS=localhost:9200 \
 -e QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PROTOCOL=HTTP \
 -e SEARCHPE_SUNAT_PADRONREDUCIDOURL=https://raw.githubusercontent.com/project-openubl/searchpe/master/padron_reducido_ruc.zip \
-quay.io/projectopenubl/searchpe
+quay.io/projectopenubl/searchpe:2.0.1
 ```{{execute T1}}
 
 > Note que se está pasando una variable de entorno **SEARCHPE_SUNAT_PADRONREDUCIDOURL** con la URl de un padrón reducido de prueba. En escenarios reales no necesitas indicar el valor de **SEARCHPE_SUNAT_PADRONREDUCIDOURL** ya que este está ya configurado.
