@@ -1,6 +1,6 @@
 {
     "title": "Searchpe v3",
-    "description": "Consulta el RUC de cualquier persona jurídica en el territorio peruano. La información es obtenida del padrón reducido de la SUNAT.",
+    "description": "Consulta el RUC de cualquier persona natural o jurídica en el territorio peruano. La información es obtenida del padrón reducido de la SUNAT.",
     "icon": "fa-katacoda",
     "courses": [
         {
