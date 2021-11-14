@@ -24,13 +24,13 @@ Ingresa al menu `Número de documento` y, utilizando el buscador de la interface
 
 ```
 curl -u admin:password http://localhost:8180/api/contribuyentes/10452159428
-```
+```{{execute T1}}
 
 - Usa `json_pp` para hacer el JSON amigable para los humanos:
 
 ```
 curl -u admin:password http://localhost:8180/api/contribuyentes/10452159428 | json_pp
-```
+```{{execute T1}}
 
 ### Envía las credenciales manualmente usando Headers
 
@@ -44,4 +44,4 @@ curl \
   --header "Authorization: Basic $AUTH" \
   --request GET \
   http://localhost:8180/api/contribuyentes/10452159428
-```
+```{{execute T1}}
