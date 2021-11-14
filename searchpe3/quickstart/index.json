@@ -32,7 +32,14 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Dashboard",
+        "href": "https://[[HOST_SUBDOMAIN]]-8180-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
   },
   "backend": {
     "imageid": "ubuntu:2004",
