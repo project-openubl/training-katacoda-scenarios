@@ -8,11 +8,12 @@
       {
         "title": "Configura PostgreSQL",
         "text": "step1.md",
-        "verify": "verify.sh"
+        "verify": "step1_verify"
       },
       {
         "title": "Configura Searchpe",
-        "text": "step2.md"
+        "text": "step2.md",
+        "verify": "step2_verify"
       },
       {
         "title": "Crea el usuario administrador",
