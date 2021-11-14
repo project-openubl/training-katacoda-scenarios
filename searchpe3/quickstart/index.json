@@ -1,0 +1,47 @@
+{
+  "title": "Searchpe quickstart",
+  "description": "Aprende a arrancar Searchpe y empezar a consultar los datos de todas las personas naturales y jurídicas registradas en la SUNAT.",
+  "difficulty": "Beginner",
+  "time": "10",
+  "details": {
+    "steps": [
+      {
+        "title": "Configura PostgreSQL",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      },
+      {
+        "title": "Configura Searchpe",
+        "text": "step2.md"
+      },
+      {
+        "title": "Crea el usuario administrador",
+        "text": "step3.md"
+      },
+      {
+        "title": "Crea una versión del padron reducido",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "External dashboard",
+        "href": "https://[[HOST_SUBDOMAIN]]-8180-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu:2004",
+    "port": "8180"
+  }
+}
