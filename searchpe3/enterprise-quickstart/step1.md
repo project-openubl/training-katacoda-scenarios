@@ -23,9 +23,4 @@ Verifica los contenedores activos
 docker ps
 ```{{execute T1}}
 
-El resultado del comando anterior debe de parecerse a:
-
-```
-CONTAINER ID   IMAGE           COMMAND                  NAMES
-8d195e0f005c   postgres:13.1   "docker-entrypoint.s…"   postgresql
-```
+El resultado del comando anterior debe de contener a postgresql.
