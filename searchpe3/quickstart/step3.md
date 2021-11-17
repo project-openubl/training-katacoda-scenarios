@@ -1,4 +1,4 @@
-Ingresa a Searchpe usando a travéz de:
+Ingresa a Searchpe a travéz de:
 
 https://[[HOST_SUBDOMAIN]]-8180-[[KATACODA_HOST]].environments.katacoda.com
 
