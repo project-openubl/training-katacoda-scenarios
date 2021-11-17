@@ -6,7 +6,7 @@ Descarga un Realm pre configurado:
 curl https://raw.githubusercontent.com/project-openubl/searchpe/master/src/main/resources/openubl-realm.json -o /tmp/openubl-realm.json
 ```{{execute T1}}
 
-## Crea unas instancia de Keycloak
+## Crea una instancia de Keycloak
 
 Usaremos Docker para crear una instancia de Keycloak.
 
@@ -37,3 +37,9 @@ docker ps
 ```{{execute T1}}
 
 El resultado del comando anterior debe de contener Keycloak.
+
+## Keycloak login
+
+Ingresa a la consola de administración de Keycloak a travéz de:
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com

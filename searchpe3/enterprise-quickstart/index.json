@@ -26,7 +26,7 @@
         "verify": "step4_verify.sh"
       },
       {
-        "title": "Login Searchpe y Keycloak",
+        "title": "Login Searchpe",
         "text": "step5.md"
       },
       {
