@@ -7,4 +7,4 @@ https://[[HOST_SUBDOMAIN]]-8180-[[KATACODA_HOST]].environments.katacoda.com
 Usa las credenciales:
 
 - Username = `admin`
-- password = `password`
+- password = `admin`
