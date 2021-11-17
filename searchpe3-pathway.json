@@ -7,6 +7,11 @@
             "course_id": "quickstart",
             "title": "Searchpe quickstart",
             "description": "Aprende a arrancar Searchpe y empezar a consultar los datos de todas las personas jurídicas registradas en la SUNAT."
+        },
+        {
+            "course_id": "enterprise-quickstart",
+            "title": "Searchpe Enterprise quickstart",
+            "description": "Aprende a arrancar Searchpe e integrar Elasticsearch y Keycloak."
         }
     ]
 }
