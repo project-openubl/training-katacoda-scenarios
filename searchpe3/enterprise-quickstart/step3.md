@@ -43,3 +43,9 @@ El resultado del comando anterior debe de contener Keycloak.
 Ingresa a la consola de administración de Keycloak a travéz de:
 
 https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
+
+
+Usa las credenciales:
+
+- Username = `admin`
+- password = `admin`
